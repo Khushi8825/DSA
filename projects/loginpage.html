@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Online Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #b61290;
+            color: rgba(10, 9, 9, 0.904);
+            text-align: center;
+            padding: 10px 0;
+            font-size: 24px;
+            
+        }
+        header h1 {
+
+            margin: 0;
+        }
+        header h2 {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+        nav {
+            margin: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: rgb(0, 195, 255);
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .content {
+            display: flex;
+        }
+        .sidebar {
+            width: 20%;
+            padding: 20px;
+        }
+        .sidebar a {
+            display: block;
+
+            margin: 10px 0;
+            text-decoration: none;
+            color: rgb(0, 234, 255);
+            font-size: 18px;
+        }
+        .main {
+            width: 80%;
+            text-align: center;
+            padding: 20px;
+        }
+        .main img {
+            width: 200px;
+            height: 100px;
+        }
+        .login-form {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .login-form h3 {
+            font-size: 24px;
+            color: purple;
+        }
+        .login-form label {
+            display: block;
+            margin: 10px 0 5px;
+            font-size: 18px;
+        }
+        .login-form input {
+            padding: 8px;
+            width: 200px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .login-form button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 5px;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="C:\Users\Hp\Desktop\coding\projects\Screenshot 2024-10-13 231054.png" alt="GL Bajaj Logo" style="float: left; margin-left: 10px; height: 80px;">
+    <h1>Online Book Store</h1>
+    <h2>Created & Maintained By GLBITM</h2>
+</header>
+
+<nav>
+    <a href="#">HOME</a>
+    <a href="#">LOGIN</a>
+    <a href="#">REGISTER</a>
+    <a href="#">CATALOGUE</a>
+</nav>
+
+<div class="content">
+    <div class="sidebar">
+        <a href="#">CSE</a>
+        <a href="#">ECE</a>
+        <a href="#">EEE</a>
+        <a href="#">MECH</a>
+    </div>
+
+    <div class="main">
+        <img src="C:\Users\Hp\Desktop\coding\projects\Screenshot 2024-10-14 002525.png" alt="Login Image">
+        <div class="login-form">
+            <h3>Enter Login Details:</h3>
+            <form action="#">
+                <label for="loginID">Login ID:</label>
+                <input type="text" id="loginID" name="loginID"><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Online Book Store | GLBITM</p>
+</footer>
+
+</body>
+</html>

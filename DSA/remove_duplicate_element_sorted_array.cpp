@@ -3,6 +3,7 @@
 using namespace std;
  vector<int> removeDuplicate(int *arr,int n){
     vector<int> ans;
+    if(n==0) return ans;
     int i=0;
     while(i<n){
         if( i+1>=n || arr[i]!=arr[i+1]){

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store Catalogue</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table, th, td {
+            border: 2px solid black;
+        }
+        th, td {
+            padding: 10px;
+        }
+        th {
+            background-color: #f4a460;
+        }
+        td img {
+            width: 100px;
+            height: auto;
+        }
+        .book-info {
+            text-align: left;
+        }
+        .price, .cart-button {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h1 style="text-align: center;">Book Store Catalogue</h1>
+
+<table>
+    <tr>
+        <th rowspan="2">Logo</th>
+        <th colspan="4">WebSite Name</th>
+    </tr>
+    <tr>
+        <th>Home</th>
+        <th>Login</th>
+        <th>Registration</th>
+        <th>Catalogue</th>
+        <th>Cart</th>
+    </tr>
+    <tr>
+        <td rowspan="4">CSE</td>
+        <td><img src="xml_bible.jpg" alt="XML Bible"></td>
+        <td class="book-info">
+            <strong>Book: XML Bible</strong><br>
+            Author: Winston<br>
+            Publication: Wiley
+        </td>
+        <td class="price">$40.5</td>
+        <td class="cart-button"><button>Add to cart</button></td>
+    </tr>
+    <tr>
+        <td><img src="ai_book.jpg" alt="AI Book"></td>
+        <td class="book-info">
+            <strong>Book: AI</strong><br>
+            Author: S. Russel<br>
+            Publication: Princetonhall
+        </td>
+        <td class="price">$63</td>
+        <td class="cart-button"><button>Add to cart</button></td>
+    </tr>
+    <tr>
+        <td><img src="java2.jpg" alt="Java 2 Book"></td>
+        <td class="book-info">
+            <strong>Book: Java 2</strong><br>
+            Author: Watson<br>
+            Publication: BPB Publications
+        </td>
+        <td class="price">$35.5</td>
+        <td class="cart-button"><button>Add to cart</button></td>
+    </tr>
+    <tr>
+        <td><img src="html_24hrs.jpg" alt="HTML in 24 Hours"></td>
+        <td class="book-info">
+            <strong>Book: HTML in 24 Hours</strong><br>
+            Author: Sam Peter<br>
+            Publication: Sampublication
+        </td>
+        <td class="price">$50</td>
+        <td class="cart-button"><button>Add to cart</button></td>
+    </tr>
+</table>
+
+</body>
+</html>
