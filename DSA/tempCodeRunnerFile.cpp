@@ -1,33 +1,15 @@
-#include<iostream>
-#include<vector>
-using namespace std;
- vector<int> removeDuplicate(int *arr,int n){
-    vector<int> ans;
-    int i=0;
-    while(i<n){
-        if( i+1>=n || arr[i]!=arr[i+1]){
-            
-            ans.push_back(arr[i]);
-            i++;
+for(int i=Sr; i<=er&& count<total_elements; i++){
+            ans.push_back(a[i][ec]);
+            count++;
         }
-        else {
-            i++;
+            ec--;
+        for(int i=ec; i<=sc&& count<total_elements; i--){
+            ans.push_back(a[er][i]);
+            count++;
         }
-    }
-    return ans;
- }
- int main (){
-  int a[100]; 
-  int n;
-  cout<<"Enter the size od array:";
-  cin>>n; 
-  cout<<"enter the elements of array:";
-  for(int i=0; i<n; i++){
-    cin>>a[i];
-  }
-  vector<int> ans=removeDuplicate(a,n);
-  for(int i:ans){
-    cout<<i<<" ";
-  }
-
- }
+            er--;
+        for(int i=er; i<=Sr&& count<total_elements; i--){
+            ans.push_back(a[i][sc]);
+            count++;
+        }
+            sc++;
