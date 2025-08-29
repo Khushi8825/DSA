@@ -22,8 +22,7 @@ vector<vector<int>> LevelOrderTraversal(struct node* &root){
         vector<int> level;
         for(int i=0;i<size;i++){
             node* Node=q.front();
-            // cout<<"pushed";
-            // cout<<Node->val<<endl;
+            cout<<Node->val<<endl;
             q.pop();
             if(Node->left!=NULL) q.push(Node->left);
             if(Node->right!=NULL) q.push(Node->right);
