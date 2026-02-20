@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
 using namespace std;
 void printSolution(vector<vector<char>>& board,int n){
     for(int i=0;i<n;i++){
